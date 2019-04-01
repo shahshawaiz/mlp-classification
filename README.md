@@ -1,6 +1,6 @@
 # Introduction
 
-In this exercise, A baseline model for classification of given dataset has been proposed. Following document outlines walkthrough of process that was followed for the completion of given task.
+In this exercise, A baseline model for classification of given dataset (sample.csv) has been proposed. Following document outlines walkthrough of process that was followed for the completion of given task. 
 
 # Method
 
