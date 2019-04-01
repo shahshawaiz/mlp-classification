@@ -20,7 +20,7 @@ array([23,  59, 179, 268, 269, 270, 272, 273, 274, 275, 276], dtype=int64)
 
 - There were some features which showed considerable correlation. This information suggested that the data quality is good enough for using it for further processing.
 
-Following are the top 5 pairs of features with strongest correlation as indicated by Pearson Correlation Coefficient.
+Following heatmap shows top coorelated features.
 
 ![Heat Map :  MLChallenge.get_top_n_correlated()](https://raw.githubusercontent.com/shahshawaiz/mlp-classification/master/screenshots/correlation.png)
 
