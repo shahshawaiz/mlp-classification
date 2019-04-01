@@ -11,7 +11,7 @@ In this exercise, A baseline model for classification of given dataset has been 
 
 Following output shows bin sizes of each class and histogram of said distribution.
 
-![Class Distribution :  MLChallenge.get_class_distribution()](https://raw.githubusercontent.com/shahshawaiz/mlp-classification/master/screenshots/class_distribution.jpg)
+![Class Distribution :  MLChallenge.get_class_distribution()](https://raw.githubusercontent.com/shahshawaiz/mlp-classification/master/screenshots/class_distribution.PNG)
 
 - Features had noticeable sparsity.
 - 11 features had all-zero column vectors. These columns needed to be dropped for reducing unnecessary noise. Following output shows indices of such column vectors.
@@ -24,7 +24,7 @@ _Function:  MLChallenge.drop\_all\_zero\_columns()_
 
 Following are the top 5 pairs of features with strongest correlation as indicated by Pearson Correlation Coefficient.
 
-![Heat Map :  MLChallenge.get_top_n_correlated()](https://raw.githubusercontent.com/shahshawaiz/mlp-classification/master/screenshots/correlation.jpg)
+![Heat Map :  MLChallenge.get_top_n_correlated()](https://raw.githubusercontent.com/shahshawaiz/mlp-classification/master/screenshots/correlation.png)
 
 ### Feature Extraction and Data Cleaning
 
@@ -40,7 +40,7 @@ Following are the top 5 pairs of features with strongest correlation as indicate
 - In practice, for finding optimal hyperparameter combinations, Hyperparameter Optimization is usually carried out using Grid Search Cross Validation. Due to insufficient computing resources, said activity was not fully performed. For the purposes of demonstration, code for hyperparameter optimization was developed and tested on Hyperparameter Space with limited options (MLChallenge.optimize\_hyperparamters()). However, these results were not made part of final model.
 
 - Following is the summary of model composition;
-- ![Model Summary : keras.model.summary()](https://raw.githubusercontent.com/shahshawaiz/mlp-classification/master/screenshots/model.summary.jpg)
+- ![Model Summary : keras.model.summary()](https://raw.githubusercontent.com/shahshawaiz/mlp-classification/master/screenshots/model.summary.PNG)
 
 - As seen in above summary, following was the order of layers.
   1. Dense Layer:
@@ -61,7 +61,7 @@ Following are the top 5 pairs of features with strongest correlation as indicate
 - Since we are dealing with unbalanced class distribution, F1 score was used as model evaluation metric. Said metric takes precision and recall metric into account for evaluating prediction quality.
 - Following graph shows the progression of training history of F1 score over 10 epochs. F1 score progresses from 1.0335 to 1.0300, hence approaching to perfect F1 score of 1.
 
-![Model Training History : keras.model.evaluate()](https://raw.githubusercontent.com/shahshawaiz/mlp-classification/master/screenshots/f1_training.jpg)
+![Model Training History : keras.model.evaluate()](https://raw.githubusercontent.com/shahshawaiz/mlp-classification/master/screenshots/f1_training.PNG)
 
 #
 
