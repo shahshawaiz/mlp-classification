@@ -18,8 +18,6 @@ Following output shows bin sizes of each class and histogram of said distributio
 
 array([23,  59, 179, 268, 269, 270, 272, 273, 274, 275, 276], dtype=int64)
 
-_Function:  MLChallenge.drop\_all\_zero\_columns()_
-
 - There were some features which showed considerable correlation. This information suggested that the data quality is good enough for using it for further processing.
 
 Following are the top 5 pairs of features with strongest correlation as indicated by Pearson Correlation Coefficient.
